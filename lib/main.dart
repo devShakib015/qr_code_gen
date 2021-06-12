@@ -11,11 +11,12 @@ class MyApp extends StatelessWidget {
       title: 'QR CODE GEN',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
-          appBarTheme: AppBarTheme(
-        centerTitle: true,
-        elevation: 0,
-        backgroundColor: Colors.transparent,
-      )),
+        appBarTheme: AppBarTheme(
+          centerTitle: true,
+          elevation: 0,
+          backgroundColor: Colors.transparent,
+        ),
+      ),
       home: QRPage(),
     );
   }
